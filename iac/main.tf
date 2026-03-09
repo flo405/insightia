@@ -11,6 +11,9 @@ terraform {
     railway = {
       source = "terraform-community-providers/railway"
     }
+    external = {
+      source = "hashicorp/external"
+    }
   }
 }
 provider "railway" {
